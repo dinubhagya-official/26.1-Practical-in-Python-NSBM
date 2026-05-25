@@ -1,0 +1,32 @@
+a = float(input("Distance Traveld KM :"))
+b = float(input("Fuel Effciency :"))
+c = float(input("Fuel Price Per Liter Rs :"))
+d = float(input("Highway Charge Rs :"))
+#fu= Fule Use
+fu = a/b
+print("Fuel Used = ",fu)
+#fc = Fuel Cost
+fc = fu*c
+print("Fuel Cost = ",fc)
+#ftc = Final Trip Cost
+ftc = fc+d
+print("Final Trip Cost Rs. = ",ftc)
+.......--------------------........................------------------------
+
+a = float(input("Basic Salary Rs :"))
+b = float(input("Over Time Hours :"))
+c = float(input("Over Time Rate :"))
+d = float(input("Bonus Cash :"))
+e = float(input("Tax Persentage :"))
+#op= overtime payment
+op = b*c
+print("overtime payment = ",op)
+#gs = Gross Salary
+gs = a+d+op
+print("Gross Salary = ",gs)
+#ta = Tax Amount
+ta = gs*(e/100)
+print("Tax Amount = ",ta)
+#ns = Net Salary
+ns = gs-ta
+print("Net Salary : ",ns)
